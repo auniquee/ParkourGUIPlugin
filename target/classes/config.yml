@@ -1,0 +1,22 @@
+veckansParkour:
+  namn: Mardröm
+  svårighetsgrad: Mardröm
+  pris: 5 Vanliga skattkistor
+parkours:
+  - alperna
+  - akromatiskt
+  - adventure
+  - among_us
+  - backen
+  - grottan
+  - sjukhuset
+  - mardröm
+parkour_blocks:
+  alperna: snow_block
+  akromatiskt: anvil
+  adventure: minecart
+  among_us: iron_block
+  backen: acacia_wood
+  grottan: cyan_terracotta
+  sjukhuset: red_wool
+  mardröm: netherite_block
