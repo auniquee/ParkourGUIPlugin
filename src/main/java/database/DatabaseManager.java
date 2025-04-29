@@ -14,7 +14,7 @@ public class DatabaseManager {
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl("jdbc:mysql://localhost:1234/open_test_database");
         config.setUsername("root");
-        config.setPassword("");
+        config.setPassword(""); // aja baja
 
         dataSource = new HikariDataSource(config);
     }

@@ -14,10 +14,10 @@ public final class Database_test extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Initialize the database
 
         db.initialize();
         getLogger().info("Database connected successfully!");
+        saveDefaultConfig();
         ConfigManager.initialize(getConfig());
         getCommand("parkour").setExecutor(new ParkourCommand());
         getCommand("parkours").setExecutor(new ParkourListCommand(this));
